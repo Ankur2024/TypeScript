@@ -1,5 +1,3 @@
-let user = {name: "Ankur", age: 10}
-
+var user = { name: "Ankur", age: 10 };
 console.log("Ankur");
 console.log(user.name);
-
