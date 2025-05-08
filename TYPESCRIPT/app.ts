@@ -84,3 +84,13 @@ class Device{
 let d1 = new Device();
 let d2 = new Device();
 
+class Human{
+    // name: string;
+    // age: number;
+    constructor(name: string, age: number){
+        // this.name = name;
+        // this.age = age;
+    }
+}
+
+let h = new Human("Ankur", 23);
