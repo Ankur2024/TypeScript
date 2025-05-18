@@ -75,22 +75,71 @@
 
 //Class & Object
 
-class Device{
-    name = "lg";
-    price = 20000;
-    category = "digital";
+// class Device{
+//     name = "lg";
+//     price = 20000;
+//     category = "digital";
+// }
+
+// let d1 = new Device();
+// let d2 = new Device();
+
+// class Human{
+//     // name: string;
+//     // age: number;
+//     constructor(name: string, age: number){
+//         // this.name = name;
+//         // this.age = age;
+//     }
+// }
+
+// let h = new Human("Ankur", 23);
+
+// class User{
+//     constructor (public readonly name: string){}
+
+// }
+
+// let u1 = new User("Ankur")
+// console.log(u1);
+
+//GETTER SETTER
+// class User {
+//     constructor(public _name: string, public age: number) { }
+//     get name() {
+//         return this._name;
+//     }
+//     set name(name: string) {
+//         this._name = name;
+//     }
+
+// }
+// let u1 = new User("Ankur", 20)
+// console.log(u1);
+
+
+
+// ABSRTRACT CLASSES
+// class Payment{
+//     constructor(protected amount: number, protected accountNumber: number) { }
+//     isPaymentAmount(amount: number){
+//         return this.amount > 0
+//     }
+// }
+
+// class Paytm extends Payment{
+//     // implement according to your need
+// }
+
+
+// FUNCTION
+function abcs(): void {
 }
 
-let d1 = new Device();
-let d2 = new Device();
+function fun(name: string, cb: (value: string)=>void){
 
-class Human{
-    // name: string;
-    // age: number;
-    constructor(name: string, age: number){
-        // this.name = name;
-        // this.age = age;
-    }
 }
 
-let h = new Human("Ankur", 23);
+fun("", (value: string) => {
+    console.log("SFWEF")
+})
