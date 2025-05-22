@@ -133,13 +133,39 @@
 
 
 // FUNCTION
-function abcs(): void {
+// function abcs(): void {
+// }
+
+// function fun(name: string, cb: (value: string)=>void){
+
+// }
+
+// fun("", (value: string) => {
+//     console.log("SFWEF")
+// })
+
+
+// FUNCTION OVERLOADING
+// function abcd(a:number): void;
+// function abcd(b: string): number;
+
+// function abcd(a: any, b?: any){
+//     if(typeof a === "string" && typeof b === undefined){
+//         console.log("hey");
+//     }if(typeof a === "string" && typeof b === "number"){
+//         return 123;
+//     } 
+//     else {
+//         throw new Error("Something went wrong");
+//     }
+// }
+
+
+//GENERIC
+function logger<T>(a: T){
+
 }
 
-function fun(name: string, cb: (value: string)=>void){
-
-}
-
-fun("", (value: string) => {
-    console.log("SFWEF")
-})
+logger<string>("sfwfew");
+logger<number>(234);
+logger(null);

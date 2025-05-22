@@ -102,10 +102,29 @@
 //     // implement according to your need
 // }
 // FUNCTION
-function abcs() {
+// function abcs(): void {
+// }
+// function fun(name: string, cb: (value: string)=>void){
+// }
+// fun("", (value: string) => {
+//     console.log("SFWEF")
+// })
+// FUNCTION OVERLOADING
+// function abcd(a:number): void;
+// function abcd(b: string): number;
+// function abcd(a: any, b?: any){
+//     if(typeof a === "string" && typeof b === undefined){
+//         console.log("hey");
+//     }if(typeof a === "string" && typeof b === "number"){
+//         return 123;
+//     } 
+//     else {
+//         throw new Error("Something went wrong");
+//     }
+// }
+//GENERIC
+function logger(a) {
 }
-function fun(name, cb) {
-}
-fun("", (value) => {
-    console.log("SFWEF");
-});
+logger("sfwfew");
+logger(234);
+logger(null);
